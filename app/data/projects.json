@@ -25,22 +25,22 @@
         "description": "Simulation game with basic AI robots navigating and interacting."
     },
     {
-        "name": "Network Traffic Sniffer",
+        "name": "Network Traffic Sniffer (С)",
         "url": "https://github.com/finler6/network-Sniffer",
         "description": "Implements packet sniffing using pcap and Linux networking structures."
     },
     {
-        "name": "Embedded OS with FreeRTOS and Bare-Metal",
+        "name": "Embedded OS with FreeRTOS and Bare-Metal (C)",
         "url": "https://github.com/finler6/embedded-OS",
         "description": "Developed two systems on ESP32: one using FreeRTOS (semaphores, task synchronization) and another using bare-metal C programming (polling, interrupt handling). Focused on comparing RTOS multitasking and bare-metal control."
     },
     {
-        "name": "Postal Office Synchronization Simulator",
+        "name": "Postal Office Synchronization Simulator (С)",
         "url": "https://github.com/finler6/post-simulation",
         "description": "Simulated multi-process coordination using POSIX semaphores and shared memory in C, modeling clerk and customer interactions."
     },
     {
-        "name": "8-bit CPU in VHDL",
+        "name": "8-bit CPU (VHDL)",
         "url": "https://github.com/finler6/8-bit_processor",
         "description": "Designed a simple CPU based on the Brainfuck instruction set using VHDL."
     },
@@ -50,7 +50,7 @@
         "description": "Desktop schedule planner application developed in C# with GUI."
     },
     {
-        "name": "UART RX Module in VHDL",
+        "name": "UART RX Module (VHDL)",
         "url": "https://github.com/finler6/uart-rx",
         "description": "Built a UART receiver module in VHDL to interface with serial data streams."
     }
