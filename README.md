@@ -16,23 +16,25 @@ This is the source code for my personal portfolio website, built with the goal o
 
 ## 🧱 Structure Overview
 
+```text
 portfolio-site/
 ├── app/
-│ ├── init.py
-│ ├── routes/
-│ │ └── main.py
-│ ├── data/
-│ │ └── projects.json
-│ └── templates/
-│ │ └── index.html
-│ └── additionally/
-│   └── title.png
+│   ├── __init__.py
+│   ├── data/
+│   │   └── projects.json
+│   ├── routes/
+│   │   └── main.py
+│   └── templates/
+│       ├── index.html
+│       └── additionally/
+│           └── title.png
 ├── run.py
 ├── Dockerfile
 ├── requirements.txt
 ├── docker-compose.yml
 ├── Caddyfile
 └── .gitignore
+```
 
 ## ✨ Highlights
 
