@@ -1,0 +1,57 @@
+[
+    {
+        "name": "SOL25 Interpreter (PHP)",
+        "url": "https://github.com/finler6/interpreter-SOL25",
+        "description": "Custom interpreter for a designed language, written in PHP as part of a semester project."
+    },
+    {
+        "name": "SOL25 Parser (Python)",
+        "url": "https://github.com/finler6/parser-SOL25",
+        "description": "Parser and semantic analyzer for the SOL25 language using Python."
+    },
+    {
+        "name": "MiniZIG Compiler (C)",
+        "url": "https://github.com/finler6/miniZIG-Compiler",
+        "description": "A compiler for the simplified Zig-like language, written in C."
+    },
+    {
+        "name": "Bulb Puzzle Game (Java)",
+        "url": "https://github.com/finler6/bulb-game",
+        "description": "A semester project developed for the IJA course at BUT FIT. It's a logic puzzle game inspired by 'LightBulb' on Android. The goal is to rotate tiles on a board to connect wires from a power source to all bulbs and light them up."
+    },
+    {
+        "name": "Autonomous Robot Simulation (C++)",
+        "url": "https://github.com/finler6/robot-Simulator",
+        "description": "Simulation game with basic AI robots navigating and interacting."
+    },
+    {
+        "name": "Network Traffic Sniffer",
+        "url": "https://github.com/finler6/network-Sniffer",
+        "description": "Implements packet sniffing using pcap and Linux networking structures."
+    },
+    {
+        "name": "Embedded OS with FreeRTOS and Bare-Metal",
+        "url": "https://github.com/finler6/embedded-OS",
+        "description": "Developed two systems on ESP32: one using FreeRTOS (semaphores, task synchronization) and another using bare-metal C programming (polling, interrupt handling). Focused on comparing RTOS multitasking and bare-metal control."
+    },
+    {
+        "name": "Postal Office Synchronization Simulator",
+        "url": "https://github.com/finler6/post-simulation",
+        "description": "Simulated multi-process coordination using POSIX semaphores and shared memory in C, modeling clerk and customer interactions."
+    },
+    {
+        "name": "8-bit CPU in VHDL",
+        "url": "https://github.com/finler6/8-bit_processor",
+        "description": "Designed a simple CPU based on the Brainfuck instruction set using VHDL."
+    },
+    {
+        "name": "School Manager (C#)",
+        "url": "https://github.com/finler6/school-Manager",
+        "description": "Desktop schedule planner application developed in C# with GUI."
+    },
+    {
+        "name": "UART RX Module in VHDL",
+        "url": "https://github.com/finler6/uart-rx",
+        "description": "Built a UART receiver module in VHDL to interface with serial data streams."
+    }
+]
