@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -25,8 +29,8 @@
         }
 
         header img {
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
             object-fit: cover;
             border-radius: 50%;
             border: 3px solid #ddd;
@@ -34,25 +38,25 @@
         }
 
         header h1 {
-            font-size: 2rem;
+            font-size: 1.8rem;
             margin: 0;
         }
 
         header p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             margin: 10px 0 0;
             color: #555;
         }
 
         .social-links {
-            margin-top: 20px;
+            margin-top: 15px;
         }
 
         .social-links a {
             text-decoration: none;
             color: #1668a3;
-            margin: 0 10px;
-            font-size: 2rem;
+            margin: 0 8px;
+            font-size: 1.8rem;
             transition: color 0.2s ease-in-out;
         }
 
@@ -65,7 +69,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 50px 20px;
+            padding: 30px 15px;
             max-width: 1200px;
             margin: 0 auto;
         }
@@ -74,23 +78,22 @@
             background: #fefefe;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-            margin: 20px;
-            padding: 30px;
-            flex: 1 1 500px;
-            min-width: 300px;
-            max-width: 600px;
+            margin: 10px;
+            padding: 25px;
+            flex: 1 1 100%;
+            max-width: 800px;
         }
 
         .about h2, .projects h2 {
             margin-top: 0;
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             margin-bottom: 10px;
             color: #5d0808;
         }
 
         .about p, .projects p {
             font-size: 1rem;
-            line-height: 1.5;
+            line-height: 1.6;
             margin-bottom: 15px;
             color: #333;
         }
@@ -174,10 +177,21 @@
             font-size: 0.9rem;
         }
 
-        @media (max-width: 780px) {
-            main {
-                flex-direction: column;
-                align-items: center;
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            header p {
+                font-size: 0.95rem;
+            }
+
+            .social-links a {
+                font-size: 1.6rem;
+            }
+
+            .project-card {
+                padding: 15px;
             }
         }
     </style>
