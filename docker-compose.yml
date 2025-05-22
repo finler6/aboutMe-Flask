@@ -4,6 +4,8 @@ services:
   app:
     build: .
     container_name: flask-portfolio
+    env_file:
+      - ./app/.env
     expose:
       - "5000"
     restart: always
