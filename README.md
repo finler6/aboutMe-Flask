@@ -1,6 +1,6 @@
 [https://finler-portfolio.duckdns.org](https://finler-portfolio.duckdns.org)
 or
-[https://vinch.uk](https://vinch.uk/)
+[https://lit.vinch.uk](https://lit.vinch.uk/)
 
 # Gleb Litvinchuk — Personal Portfolio
 
